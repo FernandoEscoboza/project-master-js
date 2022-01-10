@@ -9,7 +9,7 @@ body{
 }
 
 #global{
-    background: white;
+    background: #ffffff90;
     width: 80%;
     /* max-width: 80%; */
     height: 100%;
@@ -23,10 +23,10 @@ body{
     font-family:Verdana, Arial ;
     font-size: 30px;
     /* letter-spacing: 4px; */
-    background-color: red;
+    background-color: rgb(255, 45, 45);
     color: white;
     text-align:center;
-    width: 80%;
+    width: 100%;
     height: 100px;
     /* margin: auto; */
     margin-bottom: 20px;
@@ -65,6 +65,17 @@ body{
     color: gold;
 }
 
+/* Height del slider */
+.bx-wrapper, .bx-viewport{
+    height: 600px !important;
+}
+
+
+
+.bx-wrapper .bx-controls-direction a{
+    background-color: #ffffff90;
+}
+
 #content{
     width: 100%;
     max-height: 100%;
@@ -86,7 +97,7 @@ body{
     /* float: left; */
     height: 100%;
     /* background-color: aqua;    */
-    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: cubic-bezier(0.25, 0.1, 0.25, 1.0);
 }
 
 .post h2{
@@ -95,7 +106,7 @@ body{
 }
 
 .post .date{
-    color: gray;
+    color: rgb(241, 0, 0);
     margin-top: 5px;
 }
 
