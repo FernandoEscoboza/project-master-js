@@ -1,0 +1,16 @@
+body{
+    background: url('../img/cielo.jpg');
+    background-attachment: fixed; /*Hace que la imagen rellena cuando realice un scroll en pantalla*/
+}
+
+#logo{    
+    background-color: rgb(181, 165, 241);
+}
+
+#menu{
+    background: rgb(181, 165, 241);
+}
+
+.post .button-more{
+    background: rgb(181, 165, 241);
+}

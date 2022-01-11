@@ -1,0 +1,16 @@
+body{
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed; /*Hace que la imagen rellena cuando realice un scroll en pantalla*/
+}
+
+#logo{    
+    background-color: red;
+}
+
+#menu{
+    background: red;
+}
+
+.post .button-more{
+    background: red;
+}

@@ -1,0 +1,17 @@
+body{
+    background: url('../img/hojas.jpg');
+    background-attachment: fixed; /*Hace que la imagen rellena cuando realice un scroll en pantalla*/
+}
+
+#logo{    
+    background-color: green;
+}
+
+#menu{
+    background: #333;
+}
+
+.post .button-more{
+    background: red;
+}
+

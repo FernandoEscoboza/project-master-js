@@ -45,4 +45,18 @@ $(document).ready(function(){
         $('#articulos').append(post);
     });
     console.log('load');
+    
+    var theme = $('#theme');
+
+    $('#to-green').click(function(){
+        theme.attr('href','css/green.css');
+    });
+
+    $('#to-red').click(function(){
+        theme.attr('href','css/red.css');
+    });
+
+    $('#to-blue').click(function(){
+        theme.attr('href','css/blue.css');
+    });
 });

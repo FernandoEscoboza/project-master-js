@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-body{
-    background: url('../img/hojas.jpg');
-    background-attachment: fixed; /*Hace que la imagen rellena cuando realice un scroll en pantalla*/
-}
 
 #global{
     background: #ffffff90;
@@ -23,7 +19,6 @@ body{
     font-family:Verdana, Arial ;
     font-size: 30px;
     /* letter-spacing: 4px; */
-    background-color: rgb(255, 45, 45);
     color: white;
     text-align:center;
     width: 100%;
@@ -37,7 +32,6 @@ body{
 
 #menu{
     font-family: helvetica, Arial;
-    background: #333;
     width: 100%;
     transform: uppercase;
     margin-bottom: 20px;
@@ -70,16 +64,13 @@ body{
     height: 600px !important;
 }
 
-
-
-.bx-wrapper .bx-controls-direction a{
+/* .bx-wrapper .bx-controls-direction a{
     background-color: #ffffff90;
-}
+} */
 
 #content{
     width: 100%;
     max-height: 100%;
-    /* background: green; */
 }
 
 #articulos{
@@ -96,7 +87,6 @@ body{
     margin: 10px ;
     /* float: left; */
     height: 100%;
-    /* background-color: aqua;    */
     transition: cubic-bezier(0.25, 0.1, 0.25, 1.0);
 }
 
@@ -185,3 +175,35 @@ footer{
     line-height: 50px;
 }
 
+#change-theme{
+    position: fixed;
+    top: 40%;
+    background: rgb(51, 51, 51, 0.7);
+    width: 50px;
+    height: 100px;
+}
+
+#to-green,
+#to-red,
+#to-blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to-green{
+    background: #235e3d;
+}
+
+#to-red{
+    background: #ca3413;
+}
+
+#to-blue{
+    background: #1f87c4;
+}
