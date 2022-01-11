@@ -59,4 +59,17 @@ $(document).ready(function(){
     $('#to-blue').click(function(){
         theme.attr('href','css/blue.css');
     });
+
+    // subir
+    $('.subir').click(function(e){
+        e.preventDefault(); 
+
+        $('html, body').animate({
+            scrollTop:0
+        },500);
+
+        return false;
+    });
+
+
 });
