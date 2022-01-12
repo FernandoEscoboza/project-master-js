@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="" >
+    <title>Proyecto Master Js</title>
+
+    <!-- Archivos Js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/jquery-ui-1.13.0/jquery-ui.min.js"></script> -->
+    <script src="js/jquery-ui-1.13.0/jquery-ui.js"></script>
+    <script src="js/contacto.js"></script>
+
+    <!-- Estilos Css -->
+     <link type="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.css"> 
+    <link type="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.structure.min.css">
+    <link type="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.theme.css">  
+    <!-- <link type="stylesheet" href="js/jquery-ui-1.13.0/jquery-ui.css">  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/blue.css">
+
+    <!-- Plugin validacion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+ 
+</head>
+<body>
+    <div id="change-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+    <section id="global">
+
+        <!-- Cabezera -->
+        <header>
+            <div id="logo">
+               <h1> Proyecto Master Js</h1>
+            </div>
+            <nav id="menu">
+                <ul >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>
+
+   
+
+       
+  
+        <!-- Contenido -->
+        <section id="content">
+            
+            
+
+            <div id="form_contact">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120395.67419244706!2d-70.74306397642822!3d19.43983161428945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1c5c838e5899f%3A0x75d4b059b8768429!2sSantiago%20De%20Los%20Caballeros!5e0!3m2!1ses-419!2sdo!4v1641961295090!5m2!1ses-419!2sdo" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+                <br>
+                <h1>Contacto</h1>
+               
+                
+                <form action="" id="">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" data-validation="alphanumeric">
+
+                    <label for="lsatname">Apellidos</label>
+                    <input type="text" name="name" id="lastname" data-validation="alphanumeric">
+                    
+                    <label for="name">Correo</label>
+                    <input type="text" name="email" id="email" data-validation="email">
+
+                    <label for="lsatname">Mensaje</label>
+                    <input type="textarea" name="name" id="mensaje" data-validation="alphanumeric">
+                    
+
+                    <input type="submit" value="Enviar" id="Enviar">
+
+                </form>
+            </div>
+            </section>
+        </section>
+        <div class="clear"></div>
+    </section>
+    
+    <footer>
+        Proyecto Master Js
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+</html>
