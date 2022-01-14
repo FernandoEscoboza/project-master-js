@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
     // alert('Antes');
-    $('#accordion').accordion({ animate: 200});
+    // $('#accordion').accordion({ animate: 200});
+    $( "#accordion" ).accordion();
 
     // alert('Despues');
 
